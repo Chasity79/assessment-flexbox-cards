@@ -8,7 +8,7 @@
 
 .card {
   /* display, flex-direction, flex-grow, flex-basis */
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   flex-grow: 1;
   flex-basis: 200px;
@@ -22,8 +22,8 @@
 
 .cardDescription {
   /* display, flex-direction, align-items, flex-grow */
-  display: inline-flex;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   flex-grow: 1;
   padding: 15px 0;
